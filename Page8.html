@@ -1,0 +1,806 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio: Iniobong Ikpang 8</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.posts {
+					width: 100%;
+					margin: 0 auto;
+			}
+			
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(450px, 1fr));
+    gap: 20px;
+    justify-content: left;
+}
+
+.story-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensures it takes full width of the grid cell */
+}
+			
+			.story-content h2 a {
+					text-decoration: none;
+					color: #333;
+			}
+			
+			.image.fit video {
+					width: 100%;
+					height: "225";
+					border-radius: 8px;
+			}
+			
+			footer {
+					text-align: center;
+					margin-top: 10px;
+			}
+			
+			.toggle-button {
+					display: inline-block;
+					padding: 8px 16px;
+					background-color: #333;
+					color: #fff;
+					text-decoration: none;
+					border-radius: 4px;
+					transition: background-color 0.3s ease;
+			}
+			
+			.toggle-button:hover {
+					background-color: #555;
+			}
+			</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Welcome<br />
+							Professional Work and Projects of Iniobong Ikpang!</h1>
+						<p>|| Program and Project Management || Knowledge Management || Research || Development of Data Collection Tools || Data and Database Management || Quantitative Data Analysis || Qualitative Data Analysis || Geospatial Data Analytics || Report Development || Risk Analysis and Management <br/> 
+						CSPro || Epidata || Epiinfo || Nvivo || Excel || Atlas.ti || SPSS || PowerBI || KoboToolBox || CommCare || Activityinfo || ArcGIS || Blender </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore Further</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Iniobong Ikpang</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="Profile.html">Profile></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="icons alt">
+							<li><a href="https://www.linkedin.com/in/iniobong-ikpang-730192a7/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/iniobongikpang" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							
+							<li>
+								<a href="mailto:iniobongikpang@gmail.com" class="icon solid alt fa-envelope">
+									<span class="label">Email</span>
+								</a>
+							</li>
+							<li><a href="tel:+2348064014644" class="icon solid alt fa-phone"><span class="label">Call me (best on mobile)</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date" id="currentDate"></span>
+<script>
+    const dateElement = document.getElementById("currentDate");
+    const today = new Date().toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    });
+    dateElement.textContent = today;
+</script>
+									<h2><a href="#">From Program Design to Learning: Using Data at Scale to Drive Impact<br />
+										Where Innovations, Programs, Data, and Impact Connect</a></h2>
+									<p>Program/Project Designing, Monitoring, Learning, and Strengthening program quality and accountability through large-scale data and impact analysis.<br />
+										<em><b>Behind the figures are the lives and hopes of displaced people who are optimistic that their lives can be positively changed.<br> Programs powered by data. Impact driven by evidence.</b></em></p>
+									</header>
+<head>
+<title>Image Slider</title>
+
+<style>
+
+body{
+font-family: Arial;
+}
+
+.slider{
+width:600px;
+height:350px;
+margin:auto;
+position:relative;
+overflow:hidden;
+}
+
+.slider img{
+width:100%;
+height:autofit;
+display:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="slider">
+
+<img class="slides" src="Slides_Page8 (1).jpg">
+<img class="slides" src="Slides_Page8 (4).jpg">
+<img class="slides" src="Slides_Page8 (2).jpg">
+<img class="slides" src="Slides_Page8 (5).jpg">
+<img class="slides" src="Slides_Page8 (6).jpg">
+<img class="slides" src="Slides_Page8 (8).jpg">
+<img class="slides" src="Slides_Page8 (3).jpg">
+<img class="slides" src="Slides_Page8 (7).jpg">
+
+</div>
+
+<script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+let slides = document.getElementsByClassName("slides");
+
+for (let i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+
+slideIndex++;
+
+if (slideIndex > slides.length) {
+slideIndex = 1;
+}
+
+slides[slideIndex-1].style.display = "block";
+
+setTimeout(showSlides, 3000); 
+
+}
+
+</script>
+
+</body>
+
+
+									<ul class="actions special">
+										<li><a href="iniobongikpang.pdf" class="button large" target="_blank">Take a look at My Resume</a></li>
+									</ul>
+							</article>
+
+						<!-- Posts -->
+						<section class="posts">
+							<div class="story-grid">
+									
+									
+							
+										
+									<!-- Story Item 1-->
+									<div class="story-item">
+										<article>
+												<header>
+														<span class="date">October to December 2015</span>
+														<div class="story-content">
+																<h2>
+																		<a href="#">
+																			Profiling of Traditional Birth Attendants (TBAs) across the Three Senatorial Districts<br />
+																				<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																					 Cross River State.
+																				</span>
+																		</a>
+																</h2>
+														</div>
+												</header>
+												<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+														<a href="#" class="image fit">
+														<img src="CUSO TBA (4).jpg" width="400" height= autofit, alt="Story Image">																							</a>
+												</div>
+												<footer>
+														<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory1()" id="ReadFullStoryButton1 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory1" style="display: none; text-align: justify">
+<p>I led a pilot survey on the profiling of Traditional Birth Attendants (TBAs) conducted across six Local Government Areas (LGAs) in Cross River State, Nigeria. The initiative was led by development partners Cuso International and UNFPA in partnership with the state government, with fieldwork and analysis carried out by the Budget Transparency and Accountability Initiative Nigeria (BTAN).</p>
+<p>The project responded to persistent gaps in Maternal, Neonatal, and Child Health (MNCH) outcomes in Nigeria — particularly the shortage of skilled healthcare workers in rural and peri-urban communities. With approximately 100 women dying daily from childbirth-related causes in Northern Nigeria alone (UNFPA, 2015), and MDG Goals 4 and 5 (child mortality and maternal health) still off-track, TBAs were identified as a critical human resource who could help close existing service gaps.</p>
+<img src="CUSO_BTAN_CAP (6).jpg" width="300" height= autofit, alt="Story Image"><img src="CUSO_BTAN_CAP (5).jpg" width="300" height= autofit, alt="Story Image">
+<p>The survey covered six communities spread across the three senatorial districts of Cross River State — Southern (Calabar South, Odukpani), Central (Yakurr, Obubra), and Northern (Yala, Obanliku). It engaged three categories of respondents: 63 TBAs, 22 Primary Health Centres (PHCs), and 88 Women of Child Bearing Age (WCBA, aged 15–49). Data was collected using structured questionnaires, a TBA register, and GPS equipment, following pre-testing in Calabar Municipality and two days of fieldwork training.</p>
+<img src="CUSO TBA (3).jpg" width="300" height= autofit, alt="Story Image"><img src="CUSO TBA (2).jpg" width="300" height= autofit, alt="Story Image">
+<p><b>Key Findings:</b> The survey revealed a heavily CHEW-dominated PHC workforce (59% of respondents were Community Health Extension Workers), with limited specialist or medical officer presence across most facilities. Staff strength varied significantly across LGAs, with some facilities relying almost entirely on volunteers. While 62% of facilities were functional LGA PHCs, the remaining 38% were basic health posts with more limited capacity.
+Despite this, community satisfaction with TBA services was high — approximately 80% of respondents rated TBA activities as good or very good. PHC activities were rated even more positively, with 91% of respondents expressing satisfaction. PHCs were the primary delivery choice for 72% of pregnant women, though in Odukpani and Yala LGAs, TBAs attracted higher patronage than PHCs. Safe delivery and, to a lesser extent, spiritual belief were the main drivers of care-seeking behavior. On the question of cost, despite a state policy (Project Hope) mandating free obstetric services, charges ranging from ₦1,000 to ₦10,000 were being levied in PHCs across the study LGAs — a significant barrier to access.</p>
+<img src="CUSO TBA (1).jpg" width="300" height= autofit, alt="Story Image"><img src="CUSO TBA (5).jpg" width="300" height= autofit, alt="Story Image">
+<p><b>Recommendations & Priority Areas:</b> Community respondents identified the following as top priorities for improving maternal and newborn health: increased employment of health workers (30%), provision of more drugs and medical supplies (24%), construction of additional health facilities (22%), and better equipping of existing facilities (13%).</p>
+Strategic Significance
+<p>As a pilot, this report lays the groundwork for scaling the TBA profiling exercise to all LGAs across Cross River State's three senatorial districts. It provides baseline data on TBA practices, PHC functionality, and MNCH service utilization — information that can guide future training, integration strategies, and resource allocation under the SDG framework.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory1() {
+			const fullStory = document.getElementById("fullStory1");
+			const button = document.getElementById("viewFullStoryButton1");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+												</footer>
+										</article>
+									</div>
+
+
+
+									<!-- Story Item 2-->
+									<div class="story-item">
+										<article>
+												<header>
+														<span class="date">March - May 2015</span>
+														<div class="story-content">
+																<h2>
+																		<a href="#">
+																			Observer - 2015 General Elections<br />
+																				<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																					Calabar, Cross River State.
+																				</span>
+																		</a>
+																</h2>
+														</div>
+												</header>
+												<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+														<a href="#" class="image fit">
+														<img src="2015 elections (1).jpg" width="400" height= autofit, alt="Story Image">																							</a>
+												</div>
+												<footer>
+														<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory2()" id="ReadFullStoryButton2 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory2" style="display: none; text-align: justify">
+<p>I led an inclusive voter education awareness is essential for strengthening democratic participation by equipping citizens with the knowledge of their voting rights, electoral processes, and civic responsibilities. It was aimed at promoting informed decision-making, increase voter turnout, and reduced electoral errors by guiding voters on proper voting procedures. Additionally, it aimed at fostering peaceful elections, encouraging inclusive participation among marginalized groups, and building public confidence in the electoral system, thereby contributing to accountable governance and a stronger democracy.</p>
+<p>I participated in monitoring and documenting, as an external observer during the <b>2015 General Elections in Cross River State</b>, covering the Presidential, National Assembly, Governorship, and State House of Assembly elections conducted by the Independent National Electoral Commission (INEC).</p>
+<p>The exercise assessed the <b>electoral process, voter accreditation using Smart Card Readers, logistics, and overall conduct of polling activities</b> across various polling units. While the elections were largely peaceful and successfully conducted in most areas, observations noted logistical delays, occasional technical challenges with card readers, and isolated incidents of violence in some locations.</p>
+<img src="2015 elections (3).jpg" width="300" height= autofit, alt="Story Image"><img src="2015 elections (2).jpg" width="300" height= autofit, alt="Story Image">
+<p>The monitoring also captured the electoral outcomes across the state, where the People’s Democratic Party (PDP) secured the presidential vote majority in the state, won all three senatorial seats, all House of Representatives seats, the governorship election, and the majority of seats in the State House of Assembly.</p>
+<p>The documentation further highlighted post-election developments, including petitions filed at the Election Tribunal by aggrieved candidates seeking legal redress, reinforcing the importance of institutional mechanisms for electoral dispute resolution.</p>
+<p>This engagement contributed to strengthening democratic accountability, electoral transparency, and documentation of electoral processes and outcomes at the state level.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory2() {
+			const fullStory = document.getElementById("fullStory2");
+			const button = document.getElementById("viewFullStoryButton2");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+												</footer>
+										</article>
+									</div>
+
+					        			<!-- Story Item 3 -->
+									<div class="story-item">
+											<article>
+													<header>
+															<span class="date">September 2014</span>
+															<div class="story-content">
+																	<h2>
+																			<a href="#">
+																				Assessment of Social Protection Schemes <br />
+																					<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																							All 18 LGAs, Cross River State.
+																					</span>
+																			</a>
+																	</h2>
+															</div>
+													</header>
+													<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+															<a href="#" class="image fit">
+														<img src="CCT Monitoring (1).jpg" width="400" height= autofit, alt="Story Image">
+															</a>
+													</div>
+													<footer>
+<!-- Read Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory3()" id="ReadFullStoryButton3 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory3" style="display: none; text-align: justify;">
+<p>I led the assessment of the Social Protection Scheme as the Program/M&E Officer, representing BTAN. This was BTAN's comprehensive state-wide monitoring and assessment of Cross River State's flagship social protection schemes — the Conditional Cash Transfer (CCT) programme (Project Comfort) and Project HOPE (free healthcare for pregnant women and children under five) — alongside vocational skills training for trainable adults and an education enrolment support component. Conducted across all 18 LGAs with UNFPA support through the Department for International Development Cooperation (DIDC), the exercise generated independent, evidence-based data to guide future policy decisions and improve programme quality.</p>
+<p><b>Methodology:</b> Six supervisors drawn from BTAN member organisations were deployed across 18 LGAs, each covering three LGAs, with a dedicated monitor per LGA. A minimum of three wards per LGA — spanning urban, semi-urban, and rural settings — were covered across the state's 196 wards. Target respondents were 900 beneficiaries, 90 community gatekeepers, 90 PHC coordinators, 90 school heads, and 18 LG Social Welfare Officers. Actual reach was 203 beneficiaries, 48 community leaders, 50 PHC coordinators, 17 school heads, and 9 social welfare officers. Data was collected through structured questionnaires, interviews, and focal group discussions, then processed at BTAN Secretariat using SPSS. Data from three LGAs (Ogoja, Obudu, and Obanliku) was not received in time due to new yam festival activities.</p>
+<p><b>Key Findings by Respondent Group:</b> Among community leaders, 77% were aware of at least one form of government support, with recognition highest for Project HOPE and the CCT scheme. However, 23% had no awareness at all, and only 58.5% could confirm the presence of actual beneficiaries in their communities — a concerning gap given the scale of the programme. Gatekeepers were particularly vocal about political interference, with many reporting that the CCT had been hijacked as a patronage tool for political supporters, and cases of elite capture — where eligible households were excluded while ineligible ones benefited — were documented across multiple LGAs.
+Among PHC coordinators, awareness was significantly higher at 92%, with 84.8% recognising Project HOPE and 90% confirming the presence of beneficiaries. All PHC coordinators agreed the schemes had improved access to healthcare, with 78% primarily delivering free services to children under five and pregnant women. Drug stockouts were a persistent complaint, and 52% of coordinators called for increased staffing, drug supply, and equipment as the most urgent improvement.
+<img src="CCT Monitoring (2).jpg" width="300" height= autofit, alt="Story Image"><img src="CCT Monitoring (4).jpg" width="300" height= autofit, alt="Story Image">
+<p>Among social welfare officers, all nine reached were aware of the CCT scheme and agreed it had improved lives, school enrolment, and healthcare access. However, a significant governance gap was identified: only five of nine had access to beneficiary lists, and several who claimed to have lists could not produce them. Only six of nine reported any functioning feedback mechanism, pointing to weak accountability systems at the LGA level. Most officers had minimal knowledge of programme details and routinely referred monitors to state headquarters — a clear decentralisation failure. Critically, there was little or no coordination between social welfare offices, PHCs, and education authorities at the LGA level, creating siloed implementation of what should be an integrated programme.</p>
+<p>Among school heads, awareness was considerably lower at 64.7%, with opinion divided on whether the scheme had improved school enrolment, partly due to low familiarity with the education component of the CCT at school level. Among the 203 beneficiaries reached — of whom 76.8% were female — results were strongly positive where the programme functioned as intended. The overwhelming majority (80.3%) had received ₦60,000 from the CCT over 2011–2013, disbursed at health centres by bank representatives. Reported impacts were compelling: 91.1% cited improved ability to sponsor children in school, 89.7% reported improved school enrolment, and 84.2% reported improved access to healthcare. On vocational training, 65.5% had registered trainable adults — primarily in fashion design, hairdressing, and computer training. However, 30 out of 48 who completed training had not received starter kits, leaving them unable to establish their businesses — a critical bottleneck in the scheme's graduation pathway. Those who had established themselves earned average monthly incomes of around ₦10,000. A striking 92% of beneficiaries said the programme was good and should continue beyond the current administration. Some beneficiaries in remote communities reported missing payment days entirely due to the distance to payment points, with one beneficiary in Yala LGA having received payment only once since the programme began.</P>
+<p><img src="CCT Monitoring (3).jpg" width="300" height= autofit, alt="Story Image"></p>
+<p><b>Recommendations:</b> BTAN's recommendations addressed both systemic and operational failures across the programme. On governance, the report called for mandatory LGA desk office involvement (social welfare, PHC, and education) at all implementation stages; active use of traditional rulers in beneficiary selection; public display of beneficiary lists at all service delivery points; and routine independent assessments to detect fraud and elite capture. On service delivery, it recommended immediate distribution of starter kits to all trained adults upon completing apprenticeships; electronic payment of cash transfers leveraging the state's existing SmartGov chip-card infrastructure to eliminate travel costs and missed payment risks; decentralised, ward-level payment points; improved drug supply to health centres; and relocation of training centres to within or adjacent to beneficiaries' communities.</p>
+<p><b>Strategic Significance: </b> This assessment is one of BTAN's most significant portfolio outputs — a full-scale, independent evaluation of state social protection spending spanning all 18 LGAs and five categories of stakeholders. By validating genuine programme impact while simultaneously documenting political capture, transparency deficits, inter-agency fragmentation, and the starter kit bottleneck, BTAN provided the kind of credible, data-driven accountability that neither government nor development partners could generate independently. The recommendation to leverage SmartGov for electronic payments was particularly forward-looking, connecting social protection delivery reform to existing state e-governance infrastructure. This work directly complements BTAN's budget advocacy at the House of Assembly, its procurement monitoring in health and education, and its reproductive health financing work — demonstrating an organisation whose accountability mandate spans the full public expenditure cycle from appropriation to beneficiary.</p>
+
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory3() {
+			const fullStory = document.getElementById("fullStory3");
+			const button = document.getElementById("ReadFullStoryButton3");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+													</footer>
+											</article>
+									</div>
+
+
+									<!-- Story Item 4-->
+									<div class="story-item">
+										<article>
+												<header>
+														<span class="date">March to September 2014</span>
+														<div class="story-content">
+																<h2>
+																		<a href="#">
+																			Subsidy Re-Investment and Empowerment Programme (SURE-P) Graduate Internship Fair<br />
+																				<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																					 Across the 18 Local Government Areas — Cross River State.
+																				</span>
+																		</a>
+																</h2>
+														</div>
+												</header>
+												<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+														<a href="#" class="image fit">
+														<img src="SURE-P.jpg" width="400" height= autofit, alt="Story Image">																							</a>
+												</div>
+												<footer>
+														<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory4()" id="ReadFullStoryButton4 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory4" style="display: none; text-align: justify">
+<p>BTAN served as the lead consultant and coordinator of the Subsidy Reinvestment and Empowerment Programme (SURE-P) Graduate Internship Scheme (GIS) fair in Cross River State. SURE-P was established by the Federal Government following the removal of the petrol subsidy, with proceeds earmarked for infrastructure development and social safety nets. The Graduate Internship Scheme, a component of the Community Services, Women and Youth Empowerment (CSWYE) project aimed to reduce graduate unemployment, build national manpower, and enhance the employability of young Nigerians by matching them with private sector firms for professional internships</p>
+<p>BTAN was appointed as the state consultant for Cross River State's GIS implementation, responsible for end-to-end coordination of the internship fair, from pre-event sensitisation and firm mobilisation through to verification, matching, and documentation on the day. This represented a significant expansion of BTAN's mandate beyond its core budget accountability work, demonstrating its operational capacity to deliver large-scale, logistically complex public employment programmes. I led the coordination of the activities across the 18 LGAs of Cross River State.</p>
+<p>In the lead-up to the fair, BTAN conducted an extensive sensitisation campaign using print media and radio jingles on CRBC to encourage both firms and graduates to register. Officials were mobilised to conduct direct, one-on-one outreach to firms across the state. A pre-sensitisation conference was held at Axari Hotels, Calabar on 21 August 2014, at which a SURE-P representative made a formal presentation on scheme mechanics and benefits. Key challenges identified during pre-sensitisation included difficulty with the online registration and timesheet submission process for firms with limited ICT capacity, and an edge case involving identical twins whose registrations were flagged due to name discrepancies.</p>
+<p>The fair was managed by a 15-member team of protocols and officials assembled and briefed by BTAN, supported by 22 security officers and the presence of the Department of State Services (DSS). The event ran from 6:30am — when early-arriving graduates began presenting — through a structured verification, registration, and matching process. Graduates were verified against a comprehensive list of 400 invitees before admission, and firms were similarly screened. At the documentation desk, graduates provided valid ID and their invitation letters, received employer confirmation forms, and were directed to firm tables for sector-based interviews. Firms completed templates listing their selected interns, who then received bank account opening forms disbursed by on-site bank representatives.</p>
+<p>The fair achieved strong results. Of 52 firms invited, 41 participated and 36 were ultimately engaged. Of 400 graduates invited, 298 participated and 206 were successfully matched to firms and selected as interns. Placements spanned 14 sectors, with the largest concentrations in education and training services (57), tourism and hospitality (32), ICT (30), broadcasting (15), social work and NGOs (12), engineering (10), and marketing services (10). Additional follow-up firms were identified for subsequent engagement, spanning hospitality, ICT, agriculture, and NGO sectors.</p>
+<p>BTAN noted that coordination challenges arising from the SURE-P federal representative's conduct during the event were absorbed by the BTAN team, whose professionalism ensured the fair ran smoothly from start to finish. BTAN recommended that future GIS events in Cross River State include more robust pre-event awareness and media coverage strategies, and that a platform be created for interns and firms to share their experiences with the scheme — both to improve subsequent iterations and to build public confidence in the programme.</p>
+<p>This engagement demonstrates BTAN's versatility as an organisation, moving from its core governance and budget transparency work into direct service delivery as a federally appointed programme consultant. By successfully coordinating the placement of 206 graduates across 36 firms in a single day, BTAN demonstrated operational credibility at scale. The GIS fair also deepened BTAN's private sector networks across key economic sectors in Cross River State, complementing its public sector accountability mandate with direct youth empowerment impact and reinforcing its positioning as a trusted implementation partner for both government and development programmes.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory4() {
+			const fullStory = document.getElementById("fullStory4");
+			const button = document.getElementById("viewFullStoryButton4");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+												</footer>
+
+										</article>
+									</div>
+					
+									<!-- Story Item 5-->
+									<div class="story-item">
+											<article>
+													<header>
+															<span class="date">December 2013</span>
+															<div class="story-content">
+																	<h2>
+																			<a href="#">
+																				Post-Implementation Assessment of FADAMA III Projects<br />
+																					<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																						Project Implementation LGAs - Cross River State
+																					</span>
+																			</a>
+																	</h2>
+															</div>
+													</header>
+													<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+														<a href="#" class="image fit">
+															<img src="Fadama (3).jpg" width="400" height= autofit, alt="Story Image">
+																																																	</image>
+															</a>
+													</div>
+													<footer>
+															<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory5()" id="readFullStoryButton5 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory5" style="display: none; text-align: justify">
+<p>As the Program/M&E Manager, I led the post-implementation assessment of the World Bank-assisted FADAMA III project across 13 LGAs in Cross River State, conducted by a member-organisation of BTAN Network - Friends of Environment and Technology Organization (FETO) between 9–16 December 2013. FADAMA III — which became disbursement-effective in Cross River State on 23 March 2009 — was an integrated agricultural and rural development programme anchored on the Community Driven Development (CDD) approach. Its core objective was to increase the income of land and water resource users on a sustainable basis, targeting the poor through community-owned Fadama Community Associations (FCAs) and Fadama User Groups (FUGs) who self-identified priorities and managed project funds directly.</p>
+<p><b>Methodology:</b> Field monitors with prior knowledge of the communities were selected and deployed across 13 LGAs spanning all three senatorial districts: Bekwarra, Ogoja, Obudu, and Obanliku in the North; Obubra, Ikom, Boki, and Yakurr in the Central; and Akamkpa, Odukpani, Calabar Municipality, Calabar South, and Akpabuyo in the South. A total of 37 sub-project sites were visited and 40 FCA/FUG respondents interviewed. Data was collected through structured questionnaires and Focus Group Discussions (FGDs) held in each senatorial district, with analysis conducted using SPSS.</p>
+<p><img src="Fadama (2).jpg" width="300" height= autofit, alt="Story Image"><img src="Fadama (1).jpg" width="300" height= autofit, alt="Story Image"></p>
+<p><b>Sub-Project Coverage and Functionality:</b> Of 37 sub-project sites visited, 27 (72.9%) were functional at the time of assessment, spanning a wide range of agricultural enterprises — fish farms, poultry, piggeries, goat farms, oil palm processing mills, market stalls, cassava processing mills, vegetable cultivation, cattle rearing, and rice farming — distributed across 13 LGAs. The remaining 10 (27.1%) were non-functional, falling into three categories: projects still under construction (including market stalls in Odukpani and a cold room in Bekwarra), projects completed but not yet operational (cold rooms in Obanliku and Calabar South, and the feed mill in Calabar Municipal), and projects that appeared abandoned despite having received multiple tranches of funding — most concentrated in Boki LGA, where all four visited projects were non-functional, including a mini-bridge, palm oil and palm kernel processing mills, and a goat farm.</p>
+<p><img src="Fadama (4).jpg" width="300" height= autofit, alt="Story Image"><img src="Fadama (5).jpg" width="300" height= autofit, alt="Story Image"></p>
+<p><b>Key Thematic Findings:</b> On access, 56.8% of respondents took between 30 minutes and one hour to reach their sub-project sites, with FADAMA having enhanced access in three locations through road grading, culvert construction, and mini-bridge works. On water, 78.3% of sub-projects were water-dependent, with the majority relying on streams and rivers; FADAMA provided water for 40.5% of these, leaving 37.8% to source independently. On energy, 51.4% of projects required electricity, but reliable public power supply was largely unavailable, most relied on generators as an alternative. On land, 67.56% found it easy to access land for their sub-projects, with 51% sited on FCA member land and 46% on community-provided plots. On costs, the majority of projects spent between ₦10,000 and ₦30,000 monthly on production and maintenance, with fish farming being the most expensive category.</p>
+<p><b>Socio-Economic Impact:</b> Despite the implementation failures, the FGDs confirmed meaningful socio-economic impact where projects functioned as intended. In Bekwarra, a clan head described the project's phase-out as a community loss comparable to the death of Nelson Mandela. Women's leaders reported improved household incomes and food security. In Ikom, FGD participants unanimously credited FADAMA III with improving the economic base of their communities, reducing conflicts, improving living standards, strengthening community unity, and giving market infrastructure a new lease of life. The programme also supported youth participation in agriculture, with some young beneficiaries using income from FADAMA projects to fund their own education.</p>
+<p><b>Recommendations:</b> The report recommended mandatory completion modalities with refund obligations for uncompleted projects; upscaling of FADAMA and RAMP for better road access to project sites; integration of agricultural extension and veterinary services into project budgets; capacity building of successful beneficiaries as future facilitators; proper feasibility studies before project commencement; standardised structural designs and branding; linkage of FADAMA agriculture with the state's tourism agenda through MDA collaboration; and strengthened monitoring and evaluation as a core programme component rather than an afterthought.</p>
+<p><img src="Fadama (7).jpg" width="300" height= autofit, alt="Story Image"><img src="Fadama (6).jpg" width="300" height= autofit, alt="Story Image"></p>
+<p><b>Strategic Significance:</b> This assessment, conducted just as FADAMA III phased out on 31 December 2013 provided a critical independent evaluation of a major World Bank agricultural investment in Cross River State. Its documentation of both genuine poverty-reducing impacts and significant accountability failures, including abandoned projects and grant misappropriation, contributed directly to the evidence base for designing FADAMA III+ Additional Financing. The report demonstrated rigorous field-based monitoring of donor-funded agricultural programmes, complementing the broader accountability ecosystem in which partner organisations like BTAN were simultaneously tracking social protection, procurement, and budget implementation across the same LGAs.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory5() {
+			const fullStory = document.getElementById("fullStory5");
+			const button = document.getElementById("viewFullStoryButton5");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+													</footer>
+											</article>
+									</div>
+
+									<!-- Story Item 6 -->
+									<div class="story-item">
+											<article>
+													<header>
+															<span class="date">May to September 2013</span>
+															<div class="story-content">
+																	<h2>
+																			<a href="#">
+																				Reproductive Health Policy Advancement Initiative (RH-PAIN) <br />
+																					<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																							Securing a budgetline in the  Cross River State Appropriation bill for distribition of FP commodities.
+																					</span>
+																			</a>
+																	</h2>
+															</div>
+													</header>
+													<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+															<a href="#" class="image fit">
+														<img src="HPP mtg5.jpg" width="400" height= autofit, alt="Story Image">
+															</a>
+													</div>
+													<footer>
+<!-- Read Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory6()" id="readFullStoryButton6" class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory6" style="display: none; text-align: justify;">
+<p>BTAN's activities under the Reproductive Health Policy Advancement Initiative (RH-PAIN), a project implemented in collaboration with the Health Policy Project (HPP) / Futures Group was to strengthen advocacy. The initiative focused on advancing reproductive health policy and securing sustainable government financing for Family Planning Programme (FPP) commodities distribution in Cross River State.</p>
+<p>I provided direct engagements to ensure the project's two core outcomes: establishing effective government policies to promote reproductive health by 2015, and securing a dedicated government budget line specifically for the distribution of Family Planning Commodities (FPCs) by 2014 — ensuring long-term sustainability beyond donor support.</p>
+<p><b>Key Activities & Advocacy Engagements:</b> Between May and September 2013, BTAN conducted an intensive multi-level advocacy campaign engaging a wide range of public sector stakeholders. Key engagements included meetings with the Special Adviser to the Governor on International Development Cooperation, who advocated for evidence-informed support for FPC distribution; the Special Adviser on Budget Planning and Evaluation, who committed to inserting a budget line for FPC distribution during the next budget revision; the Clerk and Budget Director of the Cross River State House of Assembly, who made firm commitments to support the FPP; and the Secretary of the House Appropriations Committee, who pledged to take up the matter with the Legislature. BTAN also convened a coalition of Civil Society Organisations (CSOs) working on reproductive health, budget advocacy, and governance to coordinate joint engagement strategies.</P>
+<p>A significant early win was achieved when BTAN raised FPP distribution challenges at the 1st Quarter Budget Performance Review for CSOs — prompting the Special Adviser on Budget to commit to immediate logistical support for existing commodities and a budget line upon budget revision. This was formalised through a commendation letter from BTAN to the Budget Office.</p>
+<p><b>Commodity Distribution & Government Mobilisation:</b> BTAN successfully leveraged its advocacy to secure ₦65,000 in state government support (through SMOH in partnership with UNFPA) for the logistics of FPC distribution across LGAs. The organisation also monitored FPC distribution across the state and led the Family Planning Advocacy Working Group (FPAWG) to present at LGA budget consultative forums across all three senatorial districts (Northern, Central, and Southern) as well as the 2014 Cross River State Budget consultative forum, ensuring FPP priorities were embedded in budget planning processes at both state and local levels.
+</p>
+<p><b>Partnerships:</b> Key partners engaged during this period included the Health Policy Project (Futures Group), UNFPA, Tulsi-Chanrai Foundation (which was managing commodity distribution to health facilities), Marie Stopes International, and multiple government ministries and legislative bodies.</p>
+<p><b>Strategic Significance:</b> Through this achievement, BTAN's role as a civil society in being the bridge between development partners and government institutions on reproductive health financing became visible. By targeting budget processes directly, rather than only service delivery, the project aimed to create durable policy and fiscal change that would outlast donor funding cycles, positioning BTAN as a key actor in health governance advocacy in Cross River State.
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory6() {
+			const fullStory = document.getElementById("fullStory6");
+			const button = document.getElementById("ReadFullStoryButton6");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+													</footer>
+											</article>
+									</div>
+
+
+									<!-- Story Item 7-->
+									<div class="story-item">
+										<article>
+												<header>
+														<span class="date">July 2013</span>
+														<div class="story-content">
+																<h2>
+																		<a href="#">
+																			Commemoration of the 2013 World Population Day <br />
+																				<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																					Calabar, Cross River State - Nigeria
+																				</span>
+																		</a>
+																</h2>
+														</div>
+												</header>
+												<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+													<a href="#" class="image fit">
+														<img src="world pop day13.jpg" width="400" height= autofit, alt="Story Image">
+												</a>
+												</div>
+												<footer>
+														<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory7()" id="ReadFullStoryButton7 class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory7" style="display: none; text-align: justify">
+<p>I participated as a judge and stakeholder representative during the World Population Day commemoration held on 11 July 2013 at the West African Peoples’ Institute (WAPI), Calabar, Cross River State. The event, supported by the United Nations Population Fund (UNFPA) and the State Government, focused on the theme “Adolescent Pregnancy.”</p>
+<p>The programme brought together representatives from government ministries, civil society organisations, and secondary schools to raise awareness about adolescent reproductive health, early marriage, teenage pregnancy, and sexually transmitted infections. Presentations and discussions emphasized the importance of Family Life and HIV Education (FLHE) in equipping young people with life skills such as decision-making, negotiation, and self-assertion to make informed choices.</p>
+<p><img src="world pop day1.jpg" width="300" height= autofit, alt="Story Image"><img src="world pop day3.jpg" width="300" height= autofit, alt="Story Image"></p>
+<p>As part of the event, I served as a member of the judging panel for an inter-school debate on the topic “Parents are to blame for adolescent pregnancy.” The debate, conducted using the Karl Popper format, assessed students on argument strength, presentation, and communication skills. The activity encouraged critical thinking among students and reinforced community dialogue on the role of parents, education, and social factors in addressing adolescent pregnancy.</p>
+<p>The event also featured student drama presentations, peer education messages, and prize awards for participating schools, reinforcing the importance of youth engagement, parental guidance, and awareness in reducing adolescent pregnancy and promoting responsible behaviour among young people.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory7() {
+			const fullStory = document.getElementById("fullStory7");
+			const button = document.getElementById("viewFullStoryButton7");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+												</footer>
+										</article>
+									</div>
+					
+
+											
+									<!-- Story Item 8 -->
+									<div class="story-item">
+										<article>
+												<header>
+														<span class="date">June 2011 - June 2013</span>
+														<div class="story-content">
+																<h2>
+																		<a href="#">
+																			Supportive Monitoring of Maternal, Newborn and Child Health (MNCH) Campaign Week<br />
+																				<span style="font-size: 1.25rem; font-weight: bold; text-transform: none; line-height: 1;">
+																					 	18 LGAs of Cross River State
+																				</span>
+																		</a>
+																</h2>
+														</div>
+												</header>
+												<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+													<a href="#" class="image fit">
+														<img src="Slides_Page7 (2).jpg" width="400" height= autofit, alt="Story Image">
+												</a>
+												</div>
+												<footer>
+														<!-- Full Story Button -->
+<ul class="actions special">
+	<li>
+			<button onclick="toggleStory8()" id="ReadFullStoryButton8" class="button">Read Full Story</button>
+	</li>
+</ul>
+<!-- Article Text (Initially Hidden) -->
+<div id="fullStory8" style="display: none; text-align: justify">
+<p>I led an independent five-day monitoring exercise conducted by BTAN across all 18 Local Government Areas (LGAs) of Cross River State during the Maternal, Neonatal and Child Health Week (MNCHW), held every May/June and November/December, yearly. The exercise was commissioned to provide an objective, in-process assessment of the immunisation and MNCH service delivery campaign, with particular attention to hard-to-reach communities that had recorded poor coverage during previous exercises.</p>
+<p>The monitoring sought to verify equitable utilisation of distributed materials, measure coverage against target populations (children aged 0–59 months and women of child-bearing age), and assess the functionality of PHC infrastructure, including cold chain and solar facilities across all LGAs.</p>
+<p><b>MSF Review:</b> Technical assistance was provided to both CSOs in reviewing their June Monthly Summary Forms prior to submission, with data discrepancies identified and immediately corrected by M&E Officers at both sites.</p>
+<p>A team of 18 field monitors and 14 report reviewers were deployed, covering at least 3 wards per LGA, approximately 50 wards in total. Monitors employed focal group discussions, interviews, and direct observation at health posts and PHC facilities. Prior to deployment, training was facilitated by UNICEF and a State Technical Facilitator, with a step-down training session at BTAN's office for field monitors and supervisors.</p>
+<p><b>Key Findings:</b> The monitoring revealed a number of systemic gaps across several areas: </p>
+<ul>
+<li><b>On commodities,</b> most LGAs reported shortages of key vaccines and supplies — including Vitamin A in Akpabuyo and Ogoja, albendazole in Bekwarra, and scissors and gloves in multiple LGAs including Akpabuyo and Abi, forcing parents to administer Vitamin A capsules without proper equipment. Cold chain infrastructure was found to be in poor condition in several LGAs, with non-functional solar panels in Obanliku, Calabar South, and Ogoja, raising concerns about vaccine potency given transport distances.</li>
+<li><b>On service delivery,</b> most MNCHW interventions were carried out, but WASH activities and birth registration were absent in some communities, notably Ojor in Akamkpa. Birth certificates were found to be sold for ₦200 per card in Ntrigom, Yala LGA — a violation that BTAN flagged and had stopped during the exercise. A one-off adverse event following immunisation (AEFI) was also reported in Ogoja LGA and referred to the District Nursing and Sanitation Officer for follow-up.</li>
+<li><b>On human resources and funding,</b> health worker morale was severely affected by non-payment of stipends from the June 2012 exercise. Workers received only ₦300–₦500 for the entire week's transport — described as wholly inadequate. Team sizes of four persons per ward were considered insufficient to achieve full coverage, particularly in riverine and hard-to-reach areas where no boats, life jackets, or vehicles were provided.</li>
+<li><b>Governance gaps,</b> no flag-off ceremony was held in Akpabuyo, Odukpani, and Biase LGAs, and the state's postponement of the exercise from its original dates pointed to inadequate advance planning. Local government financial commitment was uneven, with Calabar South LGC contributing ₦500,000 while others like Odukpani made no financial contribution at all.</li>
+<p><b>Recommendations</b> BTAN recommended thorough pre-exercise facility assessments; legislative institutionalisation of MNCHW through the Cross River State House of Assembly; comprehensive retraining of health workers on immunisation protocols and AEFI awareness; active engagement of traditional institutions to counter vaccine hesitancy in rural communities; and provision of appropriate transport for health workers in riverine and remote areas. BTAN also advocated for the expansion of future monitoring mandates to include pre-implementation monitoring alongside in-process monitoring, enabling better input-output comparisons.</p>
+<p><b>Strategic Significance: </b> This exercise demonstrated my lead capacity to conduct independent, evidence-based monitoring of state-level public health programmes at scale — spanning 18 LGAs simultaneously. By documenting frontline gaps in real time and escalating issues (such as the illegal sale of birth certificates) during the exercise itself, BTAN provided accountability oversight that went beyond reporting to drive immediate corrective action. The report also fed into broader advocacy on PHC infrastructure investment and health worker welfare in Cross River State.</p>
+</div>
+
+<!-- Toggle Script -->
+<script>
+	function toggleStory8() {
+			const fullStory = document.getElementById("fullStory8");
+			const button = document.getElementById("ReadFullStoryButton8");
+			if (fullStory.style.display === "none" || fullStory.style.display === "") {
+					fullStory.style.display = "block";
+					button.textContent = "Hide Full Story";
+			} else {
+					fullStory.style.display = "none";
+					button.textContent = "Read Full Story";
+			}
+	}
+</script>
+												</footer>
+										</article>
+									</div>
+
+									
+
+										
+						<!-- Footer -->
+						
+						<footer>
+							<!-- Pagination -->
+							<div class="pagination">
+									<a href="#" id="prevBtn" class="previous">Prev</a>
+									<a href="index.html" class="page" id="page1">1</a>
+									<a href="page2.html" class="page" id="page2">2</a>
+									<a href="page3.html" class="page" id="page3">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="page6.html" class="page" id="page6">6</a>
+									<a href="page7.html" class="page" id="page7">7</a>
+									<a href="page8.html" class="page" id="page8">8</a>
+							</div>
+					</footer>
+					</div>
+
+					<!-- Script -->
+<script>
+	// Get the current page number from the URL
+	const currentPage = parseInt(window.location.pathname.match(/page(\d+)\.html/)?.[1] || 1);
+
+	// Get the Prev and Next buttons
+	const prevBtn = document.getElementById("prevBtn");
+	const nextBtn = document.getElementById("nextBtn");
+
+	// Set the Prev button link
+	if (currentPage > 1) {
+			const prevPage = currentPage === 2 ? "index.html" : `page${currentPage - 1}.html`;
+			prevBtn.href = prevPage;
+			prevBtn.classList.remove("disabled");
+	} else {
+			prevBtn.style.display = "none"; // Hide the Prev button on the first page
+	}
+
+	// Set the Next button link
+	if (currentPage < 10) {  // Adjust this number if you have more pages
+			const nextPage = `page${currentPage + 1}.html`;
+			nextBtn.href = nextPage;
+			nextBtn.classList.remove("disabled");
+	} else {
+			nextBtn.style.display = "none"; // Hide the Next button on the last page
+	}
+
+	// Highlight the active page number
+	const activePage = document.getElementById(`page${currentPage}`);
+	if (activePage) {
+			activePage.classList.add("active");
+	}
+</script>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section>
+							<form action="https://formspree.io/f/mqapkjkd" method="POST">
+									<div class="fields" style="display: flex; flex-direction: column; gap: 10px;">
+											<div class="field" style="display: flex; flex-direction: column; align-items: flex-start;">
+													<label for="name" style="margin-bottom: 5px;">Name</label>
+													<input type="text" name="name" id="name" placeholder="Your Name" required style="width: 100%; padding: 8px;" />
+											</div>
+											<div class="field" style="display: flex; flex-direction: column; align-items: flex-start;">
+													<label for="email" style="margin-bottom: 5px;">Email Address</label>
+													<input type="email" name="email" id="email" placeholder="Your Email Address" required style="width: 100%; padding: 8px;" />
+											</div>
+											<div class="field" style="display: flex; flex-direction: column; align-items: flex-start;">
+													<label for="message" style="margin-bottom: 5px;">Your Message</label>
+													<textarea name="message" id="message" rows="3" placeholder="Type Your Message" required style="width: 100%; padding: 8px;"></textarea>
+											</div>
+									</div>
+									<ul class="actions" style="margin-top: 10px;">
+											<li><input type="submit" value="Send Message" style="padding: 8px 16px;" /></li>
+									</ul>
+							</form>
+					</section>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>My Address</h3>
+								<p>Zone A, Apo Resettlement, AMAC<br />
+								Abuja, Nigeria</p>
+							</section>
+							<section>
+								<h3>Phone Number</h3>
+								<p><a href="tel:+2348064014644">(+234) 806-401-4644</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:iniobongikpang@gmail.com">iniobongikpang@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/iniobongikpang" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/iniobong-ikpang-730192a7/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; iniobongikpang</li><li>Design: <a href="https://www.linkedin.com/in/iniobong-ikpang-730192a7/">LinkedIn</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
