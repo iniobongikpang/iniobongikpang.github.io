@@ -4687,3 +4687,40 @@ input, select, textarea {
 		}
 
 	}
+
+#intro {
+    background: linear-gradient(135deg, #1c1c1c, #333);
+    color: white;
+    text-align: center;
+    padding: 8rem 2rem;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+#intro p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.intro-role{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f4f4f4;
+}
+
+.skills{
+    margin-top:20px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#E0FFFF;
+    color:#000;
+    padding:6px 12px;
+    margin:4px;
+    border-radius:20px;
+    font-size:0.9rem;
+}
