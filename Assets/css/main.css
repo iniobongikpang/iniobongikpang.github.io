@@ -4724,3 +4724,8 @@ input, select, textarea {
     border-radius:20px;
     font-size:0.9rem;
 }
+
+.pagination .active {
+	background: #3399FF;
+	color: #fff;
+}
