@@ -618,7 +618,7 @@ setTimeout(showSlides, 3000);
 					<!-- Script -->
 <script>
 	// Get the current page number from the URL
-	const currentPage = parseInt(window.location.pathname.match(/page(\d+)\.html/)?.[1] || 1);
+	const currentPage = parseInt(window.location.pathname.match(/Page(\d+)\.html/)?.[1] || 1);
 
 	// Get the Prev and Next buttons
 	const prevBtn = document.getElementById("prevBtn");
@@ -626,7 +626,7 @@ setTimeout(showSlides, 3000);
 
 	// Set the Prev button link
 	if (currentPage > 1) {
-			const prevPage = currentPage === 2 ? "index.html" : `page${currentPage - 1}.html`;
+			const prevPage = currentPage === 2 ? "index.html" : `Page${currentPage - 1}.html`;
 			prevBtn.href = prevPage;
 			prevBtn.classList.remove("disabled");
 	} else {
@@ -643,7 +643,7 @@ setTimeout(showSlides, 3000);
 	}
 
 	// Highlight the active page number
-	const activePage = document.getElementById(`page${currentPage}`);
+	const activePage = document.getElementById(`Page${currentPage}`);
 	if (activePage) {
 			activePage.classList.add("active");
 	}
