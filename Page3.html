@@ -758,7 +758,7 @@ Together, these infrastructure interventions improved the overall quality of the
 					<!-- Script -->
 <script>
 	// Get the current page number from the URL
-	const currentPage = parseInt(window.location.pathname.match(/Page(\d+)\.html/)?.[1] || 1);
+	const currentPage = parseInt(window.location.pathname.match(/Page(\d+)\.html/i)?.[1] || 1);
 
 	// Get the Prev and Next buttons
 	const prevBtn = document.getElementById("prevBtn");
