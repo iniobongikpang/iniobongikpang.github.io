@@ -715,13 +715,13 @@ During the observation, multiple bids were opened and reviewed in the presence o
 	<!-- Pagination -->
 	<div class="pagination">
 									<a href="#" id="prevBtn" class="previous">Prev</a>
-									<a href="index.html" class="page" id="page1">1</a>
-									<a href="page2.html" class="page" id="page2">2</a>
-									<a href="page3.html" class="page" id="page3">3</a>
+									<a href="index.html" class="page" id="Page1">1</a>
+									<a href="Page2.html" class="page" id="Page2">2</a>
+									<a href="Page3.html" class="page" id="Page3">3</a>
 									<span class="extra">&hellip;</span>
-									<a href="page8.html" class="page" id="page8">8</a>
-									<a href="page9.html" class="page" id="page9">9</a>
-									<a href="page10.html" class="page" id="page10">10</a>
+									<a href="Page8.html" class="page" id="Page8">8</a>
+									<a href="Page9.html" class="page" id="Page9">9</a>
+									<a href="Page10.html" class="page" id="Page10">10</a>
 									<a href="#" id="nextBtn" class="next">Next</a>
 							</div>
 					</footer>
@@ -729,7 +729,7 @@ During the observation, multiple bids were opened and reviewed in the presence o
 					<!-- Script -->
 <script>
 	// Get the current page number from the URL
-	const currentPage = parseInt(window.location.pathname.match(/page(\d+)\.html/)?.[1] || 1);
+	const currentPage = parseInt(window.location.pathname.match(/Page(\d+)\.html/)?.[1] || 1);
 
 	// Get the Prev and Next buttons
 	const prevBtn = document.getElementById("prevBtn");
@@ -737,7 +737,7 @@ During the observation, multiple bids were opened and reviewed in the presence o
 
 	// Set the Prev button link
 	if (currentPage > 1) {
-			const prevPage = currentPage === 2 ? "index.html" : `page${currentPage - 1}.html`;
+			const prevPage = currentPage === 7 ? "Page6.html" : `Page${currentPage - 1}.html`;
 			prevBtn.href = prevPage;
 			prevBtn.classList.remove("disabled");
 	} else {
@@ -746,7 +746,7 @@ During the observation, multiple bids were opened and reviewed in the presence o
 
 	// Set the Next button link
 	if (currentPage < 10) {  // Adjust this number if you have more pages
-			const nextPage = `page${currentPage + 1}.html`;
+			const nextPage = `Page${currentPage + 1}.html`;
 			nextBtn.href = nextPage;
 			nextBtn.classList.remove("disabled");
 	} else {
@@ -754,7 +754,7 @@ During the observation, multiple bids were opened and reviewed in the presence o
 	}
 
 	// Highlight the active page number
-	const activePage = document.getElementById(`page${currentPage}`);
+	const activePage = document.getElementById(`Page${currentPage}`);
 	if (activePage) {
 			activePage.classList.add("active");
 	}
