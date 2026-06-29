@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Portfolio: Iniobong Ikpang 3</title>
+		<title>Portfolio: Iniobong Ikpang</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="Assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
 		<noscript><link rel="stylesheet" href="Assets/css/noscript.css" /></noscript>
 		<style>
 			.posts {
@@ -13,16 +14,27 @@
 					margin: 0 auto;
 			}
 			
+#wrapper {
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .story-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(460px, 1fr));
     gap: 20px;
     justify-content: left;
+}
 
 @media (max-width: 600px) {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    justify-content: center;
-}
+    .story-grid {
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    	justify-content: center;
+	}
 }
 
 .story-item {
@@ -40,7 +52,7 @@
 			
 			.image.fit video {
 					width: 100%;
-					height: "225";
+					height: auto;
 					border-radius: 8px;
 			}
 			
@@ -64,17 +76,16 @@
 			}
 			</style>
 	</head>
-	<body class="is-preload">
+	<body>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
-
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Welcome to the<br />
 							Professional Journey of Iniobong Ikpang!</h1>
-						<p>|| Program and Project Management || Knowledge Management || Research || Development of Data Collection Tools || Data and Database Management || Quantitative Data Analysis || Qualitative Data Analysis || Geospatial Data Analytics || Report Development || Risk Analysis and Management <br/> 
-						CSPro || Epidata || Epiinfo || Nvivo || Excel || Atlas.ti || SPSS || PowerBI || KoboToolBox || CommCare || Activityinfo || ArcGIS || Blender </p>
+						<p>|| Humanitarian - Development - Peace (HDP) Nexus Specialist || Program and Project Management || Knowledge Management || Research || Development of Data Collection Tools || Data and Database Management || Quantitative Data Analysis || Qualitative Data Analysis || Geospatial Data Analytics || Report Development || Risk Analysis and Management ||</p> 
+						<p>|| CSPro || Epidata || Epiinfo || Nvivo || Excel || Atlas.ti || SPSS || PowerBI || KoboToolBox || CommCare || Activityinfo || ArcGIS || Blender ||</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore Further</a></li>
 						</ul>
@@ -849,13 +860,13 @@ Together, these infrastructure interventions improved the overall quality of the
 			</div>
 
 		<!-- Scripts -->
-			<script src="Assets/js/jquery.min.js"></script>
-			<script src="Assets/js/jquery.scrollex.min.js"></script>
-			<script src="Assets/js/jquery.scrolly.min.js"></script>
-			<script src="Assets/js/browser.min.js"></script>
-			<script src="Assets/js/breakpoints.min.js"></script>
-			<script src="Assets/js/util.js"></script>
-			<script src="Assets/js/main.js"></script>
+			<script src="Assets/js/jquery.min.js" defer></script>
+			<script src="Assets/js/jquery.scrollex.min.js" defer></script>
+			<script src="Assets/js/jquery.scrolly.min.js" defer></script>
+			<script src="Assets/js/browser.min.js" defer></script>
+			<script src="Assets/js/breakpoints.min.js" defer></script>
+			<script src="Assets/js/util.js" defer></script>
+			<script src="Assets/js/main.js" defer></script>
 
 	</body>
 </html>
